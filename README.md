@@ -1,1 +1,1 @@
-personal-website-template
+personal-website
