@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body
 {
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'Playfair Display', serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
-    direction: rtl;
 }
 
 main {
@@ -22,10 +21,10 @@ main>section {
 #header{
     background: #353637;
     display: flex;
- flex-flow: row wrap;
-justify-content: center;
-align-content: center;
-align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     border-bottom: 3px solid #32a0c2;
     padding: 0px 120px;
 }
@@ -33,20 +32,30 @@ align-items: center;
 #branding h1 {
     font-size: 28px;
   }
-  nav > ul {
-      margin-top: 0px;
+#branding h1 > a {
+    display: flex;
+    position: relative;
+}
+#branding h1 > a > img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -50px;
+    bottom: -10px;
+}
+nav > ul {
+    margin-top: 0px;
     list-style-type: none;
-  }
+}
 
-  #header a 
-{
+#header a {
     color: #ffffff;
     text-decoration: none;
 }
   
 nav > ul >  li {
-    float: right;
-    margin-left: 15px;
+    float: left;
+    margin-right: 15px;
   }
 li a{
     text-decoration: none;
